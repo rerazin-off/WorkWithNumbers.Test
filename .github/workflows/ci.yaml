@@ -22,7 +22,7 @@ jobs:
       - name: Add GitHub Packages source
         run: |
           dotnet nuget remove source github || true
-          dotnet nuget add source "https://nuget.pkg.github.com/rerazin/index.json" --name github --username rerazin --password ${{ secrets.PACKPAGE_TOKEN }} --store-password-in-clear-text
+          dotnet nuget add source "https://nuget.pkg.github.com/rerazin-off/index.json" --name github --username rerazin --password ${{ secrets.PACKPAGE_TOKEN }} --store-password-in-clear-text
       - name: Restore dependencies
         run: dotnet restore
 
