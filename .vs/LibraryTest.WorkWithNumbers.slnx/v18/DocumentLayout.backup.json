@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rerazin\\source\\repos\\CourseManagement\\Course\\LibraryTest.WorkWithNumbers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2824AA64-ABAC-657C-48FD-A4D6A325C01A}|LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers.csproj|c:\\users\\rerazin\\source\\repos\\coursemanagement\\course\\librarytest.workwithnumbers\\librarytest.workwithnumbers\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2824AA64-ABAC-657C-48FD-A4D6A325C01A}|LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers.csproj|solutionrelative:librarytest.workwithnumbers\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2824AA64-ABAC-657C-48FD-A4D6A325C01A}|LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers.csproj|c:\\users\\rerazin\\source\\repos\\coursemanagement\\course\\librarytest.workwithnumbers\\librarytest.workwithnumbers\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2824AA64-ABAC-657C-48FD-A4D6A325C01A}|LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers.csproj|solutionrelative:librarytest.workwithnumbers\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\rerazin\\source\\repos\\CourseManagement\\Course\\LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "LibraryTest.WorkWithNumbers\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\rerazin\\source\\repos\\CourseManagement\\Course\\LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers\\MSTestSettings.cs",
+              "RelativeToolTip": "LibraryTest.WorkWithNumbers\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:11:48.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\rerazin\\source\\repos\\CourseManagement\\Course\\LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers\\Test1.cs",
+              "RelativeDocumentMoniker": "LibraryTest.WorkWithNumbers\\Test1.cs",
+              "ToolTip": "C:\\Users\\rerazin\\source\\repos\\CourseManagement\\Course\\LibraryTest.WorkWithNumbers\\LibraryTest.WorkWithNumbers\\Test1.cs",
+              "RelativeToolTip": "LibraryTest.WorkWithNumbers\\Test1.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAQwPoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T08:11:33.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

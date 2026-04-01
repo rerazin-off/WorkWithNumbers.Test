@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ Main ]
+  pull_request:
+    branches: [ Main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+          
+      - name: Add GitHub Packages source
+        run: |
+          dotnet nuget remove source github || true
+          dotnet nuget add source "https://nuget.pkg.github.com/rerazin-off/index.json" --name github --username rerazin-off --password ${{ secrets.PACKAGES_TOKEN }} --store-password-in-clear-text
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Run unit tests
+        run: dotnet test --no-build --configuration Release --verbosity normal
